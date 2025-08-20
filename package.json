@@ -1,0 +1,41 @@
+{
+  "name": "khaled-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Khaled Altahrawi — personal developer portfolio",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url /portfolio/",
+    "serve:dist": "npx serve dist -l 5000",
+    "lint": "echo \"Add ESLint/Prettier if you extend JS\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhaledAltahrawi/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "frontend",
+    "khaled-altahrawi"
+  ],
+  "author": "Khaled Altahrawi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KhaledAltahrawi/portfolio/issues"
+  },
+  "homepage": "https://KhaledAltahrawi.github.io/portfolio/",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.2",
+    "@parcel/transformer-jsonld": "^2.8.2",
+    "parcel": "^2.8.2",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "vanilla-tilt": "^1.8.0"
+  }
+}
