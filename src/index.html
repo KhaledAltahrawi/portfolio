@@ -10,51 +10,54 @@
   For business & inquires, contact me -> jacobojavier98@gmail.com
 -->
 <!DOCTYPE html>
-
 <html class="sr" lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link href="assets/favicon.png" rel="shortcut icon" type="image/png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
     <title>Khaled Altahrawi | Software Engineer</title>
+
     <meta
-      content="Khaled Altahrawi, Software Engineer, Python, React, Data Analysis, Toronto, Web Development, Backend Development"
       name="keywords"
+      content="Khaled Altahrawi, Software Engineer, Python, React, Data Analysis, Toronto, Web Development, Backend Development"
     />
     <meta
-      content="Khaled Altahrawi - Software Engineering Graduate with a passion for building innovative web applications and analyzing data. Based in Toronto."
       name="description"
+      content="Khaled Altahrawi - Software Engineering Graduate with a passion for building innovative web applications and analyzing data. Based in Toronto."
     />
+
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link href="styles.scss" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.scss" />
+
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
 
-    <!-- ✅ Updated canonical & OG URLs for GitHub Pages -->
+    <!-- ✅ Canonical & OG for GitHub Pages -->
     <link rel="canonical" href="https://KhaledAltahrawi.github.io/portfolio/" />
-    <meta content="Khaled Altahrawi | Software Engineer" property="og:title" />
+    <meta property="og:title" content="Khaled Altahrawi | Software Engineer" />
     <meta
-      content="Khaled Altahrawi - Software Engineering Graduate with a passion for building innovative web applications and analyzing data. Based in Toronto."
       property="og:description"
+      content="Khaled Altahrawi - Software Engineering Graduate with a passion for building innovative web applications and analyzing data. Based in Toronto."
     />
-    <meta content="website" property="og:type" />
+    <meta property="og:type" content="website" />
     <meta
-      content="https://KhaledAltahrawi.github.io/portfolio/"
       property="og:url"
+      content="https://KhaledAltahrawi.github.io/portfolio/"
     />
     <meta
-      content="https://KhaledAltahrawi.github.io/portfolio/assets/Khaled_Photo.jpeg"
       property="og:image"
+      content="https://KhaledAltahrawi.github.io/portfolio/assets/Khaled_Photo.jpeg"
     />
-    <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-    <!-- ✅ Updated JSON-LD -->
+    <!-- ✅ JSON-LD (Person) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -71,8 +74,9 @@
   </head>
   <body>
     <div id="top"></div>
+
     <!-- **** Hero Section **** -->
-    <section class="jumbotron" id="hero">
+    <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Khaled Altahrawi</span>
@@ -81,9 +85,9 @@
           and committed to building efficient, well-designed software solutions.
         </h1>
         <p class="hero-cta load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about" rel="noreferrer"
-            >Learn more</a
-          >
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">
+            Learn more
+          </a>
         </p>
       </div>
     </section>
@@ -101,8 +105,8 @@
                 class="img-fluid rounded shadow-lg"
                 decoding="async"
                 height="600"
-                src="assets/Khaled_Photo.jpeg"
                 width="600"
+                src="assets/Khaled_Photo.jpeg"
               />
             </div>
           </div>
@@ -125,8 +129,8 @@
                 <a
                   class="cta-btn cta-btn--resume"
                   href="assets/Khaled-Altahrawi.pdf"
-                  rel="noreferrer noopener"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   View Resume
                 </a>
@@ -136,17 +140,122 @@
         </div>
       </div>
     </section>
+    <!-- /END About Section -->
 
     <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
-          <!-- Projects content unchanged -->
-          ...
+
+          <!-- Project 1 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Pong Game (Pygame)</h3>
+                <div>
+                  <p class="mb-4">
+                    A classic Pong game built using Python and Pygame. A fun
+                    practice project to strengthen game loops, collision logic,
+                    and GitHub workflow.
+                  </p>
+                </div>
+                <a
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/KhaledAltahrawi/pong-game"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  href="https://github.com/KhaledAltahrawi/pong-game"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <div
+                    class="thumbnail rounded js-tilt"
+                    data-tilt
+                    data-tilt-glare="true"
+                    data-tilt-max="4"
+                    data-tilt-max-glare="0.5"
+                  >
+                    <img
+                      alt="Pong Game screenshot"
+                      class="img-fluid"
+                      decoding="async"
+                      loading="lazy"
+                      width="997"
+                      height="781"
+                      src="assets/Pong-game.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  Study Permit Data Analysis
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    Analyzed Canadian study permit data (2015–Jan 2025) to
+                    identify trends, top source countries, monthly patterns, and
+                    year-over-year changes using Python, Pandas, Matplotlib, and
+                    Plotly.
+                  </p>
+                </div>
+                <a
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/KhaledAltahrawi/study-permits-analysis"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  href="https://github.com/KhaledAltahrawi/study-permits-analysis"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <div
+                    class="thumbnail rounded js-tilt"
+                    data-tilt
+                    data-tilt-glare="true"
+                    data-tilt-max="4"
+                    data-tilt-max-glare="0.5"
+                  >
+                    <img
+                      alt="Study Permit Analysis visualization"
+                      class="img-fluid"
+                      decoding="async"
+                      loading="lazy"
+                      width="1200"
+                      height="700"
+                      src="assets/study-permits-analysis.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- /END Projects Section -->
 
     <!-- **** Contact Section **** -->
     <section id="contact">
@@ -160,30 +269,32 @@
           <a
             class="cta-btn cta-btn--resume"
             href="mailto:Khaled.tahrawi16@gmail.com"
-            >Khaled.tahrawi16@gmail.com</a
           >
+            Khaled.tahrawi16@gmail.com
+          </a>
         </div>
       </div>
     </section>
+    <!-- /END Contact Section -->
 
     <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
       <div class="container">
         <a class="back-to-top" href="#top" rel="noreferrer">
-          <i aria-hidden="true" class="fa fa-angle-up fa-2x"></i>
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
           <a
             href="https://www.linkedin.com/in/khaledaltahrawi/"
-            rel="noreferrer noopener"
             target="_blank"
+            rel="noreferrer noopener"
           >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a
             href="https://github.com/KhaledAltahrawi"
-            rel="noreferrer noopener"
             target="_blank"
+            rel="noreferrer noopener"
           >
             <i class="fa fa-github fa-inverse"></i>
           </a>
@@ -194,8 +305,8 @@
           by
           <a
             href="https://github.com/cobiwave"
-            rel="noreferrer noopener"
             target="_blank"
+            rel="noreferrer noopener"
             >Jacobo Martínez</a
           >
         </p>
